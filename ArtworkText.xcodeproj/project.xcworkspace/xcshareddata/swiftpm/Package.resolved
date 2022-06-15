@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "neptuneskit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rurza/NepTunesKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4db19a1888e216a9f33b48adf58009ccf6b84a08"
+      }
+    }
+  ],
+  "version" : 2
+}
