@@ -10,19 +10,28 @@ import NepTunesKit
 
 struct ArtworkTextView: View {
     let track: AnyTrack
+    @AppStorage(wrappedValue: TextColor.white, PreferencesKey.textColor.rawValue) var textColor: TextColor
 
     var body: some View {
         HStack {
-            if let data = track.artworkData,
-               let nsImage = NSImage(data: data) {
-                Image(nsImage: nsImage)
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .clipShape(RoundedRectangle(cornerRadius: 11, style: .continuous))
-                    .shadow(color: .black.opacity(0.2),
-                            radius: 6, x: 0, y: 3)
-                    .zIndex(2)
+            Group {
+                if let data = track.artworkData,
+                   let nsImage = NSImage(data: data) {
+                    Image(nsImage: nsImage)
+                        .resizable()
+                        .interpolation(.high)
+                } else {
+                    Image("nocover")
+                        .resizable()
+                        .interpolation(.high)
+                }
             }
+            .aspectRatio(1, contentMode: .fill)
+            .frame(width: 60, height: 60)
+            .clipShape(RoundedRectangle(cornerRadius: 11, style: .continuous))
+            .shadow(color: .black.opacity(0.3),
+                    radius: 6, x: 0, y: 3)
+            .zIndex(2)
             VStack(alignment: .leading) {
                 Text(track.title)
                     .fontWeight(.medium)
@@ -41,12 +50,13 @@ struct ArtworkTextView: View {
                     )
                     .animation(.easeInOut(duration: 0.5), value: track)
             }
+            .shadow(color: .black.opacity(0.2),
+                    radius: 3, x: 0, y: 1)
+            .environment(\.colorScheme, textColor == .white ? .dark : .light)
             .zIndex(1)
             .fixedSize(horizontal: true, vertical: false)
         }
-//        .clipped() /// used to clip the animation
         .padding()
-        .environment(\.colorScheme, .dark)
     }
 }
 

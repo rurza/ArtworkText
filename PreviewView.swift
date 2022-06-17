@@ -14,5 +14,6 @@ struct PreviewView: View {
 
     var body: some View {
         ArtworkTextView(track: app.state?.currentTrack ?? ArtworkTextTheme.previewTrack)
+            .frame(width: 400, alignment: .leading)
     }
 }

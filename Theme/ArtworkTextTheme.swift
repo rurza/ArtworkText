@@ -30,4 +30,12 @@ final class ArtworkTextTheme: Theme {
         return window
     }
 
+    override func preferencesView() -> AnyView? {
+        AnyView(PreferencesView())
+    }
+
+    override func previewBackgroundView() -> AnyView {
+        AnyView(PreviewBackgroundView(app: app))
+    }
+
 }

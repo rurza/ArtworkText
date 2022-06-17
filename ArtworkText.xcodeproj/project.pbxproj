@@ -6,8 +6,60 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5B62D1D428552135008A8FDA /* ArtworkTextPreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1D328552135008A8FDA /* ArtworkTextPreviewApp.swift */; };
+		5B62D1D628552135008A8FDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1D528552135008A8FDA /* ContentView.swift */; };
+		5B62D1D828552136008A8FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B62D1D728552136008A8FDA /* Assets.xcassets */; };
+		5B62D1DB28552136008A8FDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B62D1DA28552136008A8FDA /* Preview Assets.xcassets */; };
+		5B62D1E228552152008A8FDA /* NepTunesKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B62D1E128552152008A8FDA /* NepTunesKit */; };
+		5B62D1E52855215C008A8FDA /* NepTunesKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B62D1E42855215C008A8FDA /* NepTunesKit */; };
+		5B62D1E62855215C008A8FDA /* NepTunesKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 5B62D1E42855215C008A8FDA /* NepTunesKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5B62D1E92855217F008A8FDA /* ArtworkTextTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1E82855217F008A8FDA /* ArtworkTextTheme.swift */; };
+		5B62D1EB28552DBF008A8FDA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B62D1EA28552DBF008A8FDA /* icon.png */; };
+		5B62D1ED28553057008A8FDA /* ArtworkTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1EC28553057008A8FDA /* ArtworkTextView.swift */; };
+		5B62D1EE28553069008A8FDA /* ArtworkTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1EC28553057008A8FDA /* ArtworkTextView.swift */; };
+		5BA01B4D285C76ED0057F389 /* PreferencesKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B4C285C76ED0057F389 /* PreferencesKey.swift */; };
+		5BA01B4E285C782D0057F389 /* PreferencesKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B4C285C76ED0057F389 /* PreferencesKey.swift */; };
+		5BA01B50285C794B0057F389 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B4F285C794B0057F389 /* PreferencesView.swift */; };
+		5BA01B51285C794B0057F389 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B4F285C794B0057F389 /* PreferencesView.swift */; };
+		5BA01B53285C7CB80057F389 /* PreviewBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B52285C7CB80057F389 /* PreviewBackgroundView.swift */; };
+		5BA01B54285C7CB80057F389 /* PreviewBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B52285C7CB80057F389 /* PreviewBackgroundView.swift */; };
+		5BA01B57285C7D050057F389 /* ImageColors in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA01B56285C7D050057F389 /* ImageColors */; };
+		5BA01B59285C7D120057F389 /* ImageColors in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA01B58285C7D120057F389 /* ImageColors */; };
+		5BE0AC68285A9E2300C44433 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0AC67285A9E2300C44433 /* PreviewView.swift */; };
+		5BE0AC6A285A9EA300C44433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0AC69285A9EA300C44433 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B62D1E72855215C008A8FDA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5B62D1E62855215C008A8FDA /* NepTunesKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5B62D1C62855211D008A8FDA /* ArtworkText.nepext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtworkText.nepext; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B62D1D128552135008A8FDA /* ArtworkTextPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtworkTextPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B62D1D328552135008A8FDA /* ArtworkTextPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkTextPreviewApp.swift; sourceTree = "<group>"; };
+		5B62D1D528552135008A8FDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B62D1D728552136008A8FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B62D1DA28552136008A8FDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B62D1DC28552136008A8FDA /* ArtworkTextPreview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtworkTextPreview.entitlements; sourceTree = "<group>"; };
+		5B62D1E82855217F008A8FDA /* ArtworkTextTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArtworkTextTheme.swift; path = Theme/ArtworkTextTheme.swift; sourceTree = "<group>"; };
+		5B62D1EA28552DBF008A8FDA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5B62D1EC28553057008A8FDA /* ArtworkTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkTextView.swift; sourceTree = "<group>"; };
+		5BA01B4C285C76ED0057F389 /* PreferencesKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesKey.swift; sourceTree = "<group>"; };
+		5BA01B4F285C794B0057F389 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		5BA01B52285C7CB80057F389 /* PreviewBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewBackgroundView.swift; sourceTree = "<group>"; };
+		5BE0AC67285A9E2300C44433 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		5BE0AC69285A9EA300C44433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -15,6 +67,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA01B57285C7D050057F389 /* ImageColors in Frameworks */,
+				5B62D1E228552152008A8FDA /* NepTunesKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B62D1CE28552135008A8FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA01B59285C7D120057F389 /* ImageColors in Frameworks */,
+				5B62D1E52855215C008A8FDA /* NepTunesKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -24,7 +87,17 @@
 		5B62D1BD2855211D008A8FDA = {
 			isa = PBXGroup;
 			children = (
+				5B62D1EA28552DBF008A8FDA /* icon.png */,
+				5B62D1E82855217F008A8FDA /* ArtworkTextTheme.swift */,
+				5B62D1EC28553057008A8FDA /* ArtworkTextView.swift */,
+				5BE0AC67285A9E2300C44433 /* PreviewView.swift */,
+				5BE0AC69285A9EA300C44433 /* ContentView.swift */,
+				5BA01B4C285C76ED0057F389 /* PreferencesKey.swift */,
+				5BA01B4F285C794B0057F389 /* PreferencesView.swift */,
+				5BA01B52285C7CB80057F389 /* PreviewBackgroundView.swift */,
+				5B62D1D228552135008A8FDA /* ArtworkTextPreview */,
 				5B62D1C72855211D008A8FDA /* Products */,
+				5B62D1E32855215C008A8FDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -32,8 +105,36 @@
 			isa = PBXGroup;
 			children = (
 				5B62D1C62855211D008A8FDA /* ArtworkText.nepext */,
+				5B62D1D128552135008A8FDA /* ArtworkTextPreview.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5B62D1D228552135008A8FDA /* ArtworkTextPreview */ = {
+			isa = PBXGroup;
+			children = (
+				5B62D1D328552135008A8FDA /* ArtworkTextPreviewApp.swift */,
+				5B62D1D528552135008A8FDA /* ContentView.swift */,
+				5B62D1D728552136008A8FDA /* Assets.xcassets */,
+				5B62D1DC28552136008A8FDA /* ArtworkTextPreview.entitlements */,
+				5B62D1D928552136008A8FDA /* Preview Content */,
+			);
+			path = ArtworkTextPreview;
+			sourceTree = "<group>";
+		};
+		5B62D1D928552136008A8FDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B62D1DA28552136008A8FDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B62D1E32855215C008A8FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -52,9 +153,35 @@
 			dependencies = (
 			);
 			name = ArtworkText;
+			packageProductDependencies = (
+				5B62D1E128552152008A8FDA /* NepTunesKit */,
+				5BA01B56285C7D050057F389 /* ImageColors */,
+			);
 			productName = ArtworkText;
 			productReference = 5B62D1C62855211D008A8FDA /* ArtworkText.nepext */;
 			productType = "com.apple.product-type.bundle";
+		};
+		5B62D1D028552135008A8FDA /* ArtworkTextPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B62D1DD28552136008A8FDA /* Build configuration list for PBXNativeTarget "ArtworkTextPreview" */;
+			buildPhases = (
+				5B62D1CD28552135008A8FDA /* Sources */,
+				5B62D1CE28552135008A8FDA /* Frameworks */,
+				5B62D1CF28552135008A8FDA /* Resources */,
+				5B62D1E72855215C008A8FDA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtworkTextPreview;
+			packageProductDependencies = (
+				5B62D1E42855215C008A8FDA /* NepTunesKit */,
+				5BA01B58285C7D120057F389 /* ImageColors */,
+			);
+			productName = ArtworkTextPreview;
+			productReference = 5B62D1D128552135008A8FDA /* ArtworkTextPreview.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -63,9 +190,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					5B62D1C52855211D008A8FDA = {
+						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
+					};
+					5B62D1D028552135008A8FDA = {
 						CreatedOnToolsVersion = 13.4;
 					};
 				};
@@ -79,11 +211,16 @@
 				Base,
 			);
 			mainGroup = 5B62D1BD2855211D008A8FDA;
+			packageReferences = (
+				5B62D1E028552152008A8FDA /* XCRemoteSwiftPackageReference "NepTunesKit" */,
+				5BA01B55285C7D050057F389 /* XCRemoteSwiftPackageReference "ImageColors" */,
+			);
 			productRefGroup = 5B62D1C72855211D008A8FDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5B62D1C52855211D008A8FDA /* ArtworkText */,
+				5B62D1D028552135008A8FDA /* ArtworkTextPreview */,
 			);
 		};
 /* End PBXProject section */
@@ -93,6 +230,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B62D1EB28552DBF008A8FDA /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B62D1CF28552135008A8FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B62D1DB28552136008A8FDA /* Preview Assets.xcassets in Resources */,
+				5B62D1D828552136008A8FDA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +250,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B62D1ED28553057008A8FDA /* ArtworkTextView.swift in Sources */,
+				5BA01B53285C7CB80057F389 /* PreviewBackgroundView.swift in Sources */,
+				5BA01B50285C794B0057F389 /* PreferencesView.swift in Sources */,
+				5B62D1E92855217F008A8FDA /* ArtworkTextTheme.swift in Sources */,
+				5BE0AC6A285A9EA300C44433 /* ContentView.swift in Sources */,
+				5BE0AC68285A9E2300C44433 /* PreviewView.swift in Sources */,
+				5BA01B4D285C76ED0057F389 /* PreferencesKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B62D1CD28552135008A8FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA01B51285C794B0057F389 /* PreferencesView.swift in Sources */,
+				5B62D1D628552135008A8FDA /* ContentView.swift in Sources */,
+				5B62D1D428552135008A8FDA /* ArtworkTextPreviewApp.swift in Sources */,
+				5BA01B54285C7CB80057F389 /* PreviewBackgroundView.swift in Sources */,
+				5BA01B4E285C782D0057F389 /* PreferencesKey.swift in Sources */,
+				5B62D1EE28553069008A8FDA /* ArtworkTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,19 +388,29 @@
 		5B62D1CB2855211D008A8FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YL78V8PY6H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = "";
+				INFOPLIST_KEY_NSPrincipalClass = ArtworkText.ArtworkTextTheme;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = software.micropixels.ArtworkText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = nepext;
 			};
 			name = Debug;
@@ -241,20 +418,91 @@
 		5B62D1CC2855211D008A8FDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YL78V8PY6H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = "";
+				INFOPLIST_KEY_NSPrincipalClass = ArtworkText.ArtworkTextTheme;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = software.micropixels.ArtworkText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = nepext;
+			};
+			name = Release;
+		};
+		5B62D1DE28552136008A8FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArtworkTextPreview/ArtworkTextPreview.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArtworkTextPreview/Preview Content\"";
+				DEVELOPMENT_TEAM = YL78V8PY6H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = software.micropixels.ArtworkTextPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B62D1DF28552136008A8FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArtworkTextPreview/ArtworkTextPreview.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArtworkTextPreview/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = software.micropixels.ArtworkTextPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -279,7 +527,58 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5B62D1DD28552136008A8FDA /* Build configuration list for PBXNativeTarget "ArtworkTextPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B62D1DE28552136008A8FDA /* Debug */,
+				5B62D1DF28552136008A8FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B62D1E028552152008A8FDA /* XCRemoteSwiftPackageReference "NepTunesKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rurza/NepTunesKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		5BA01B55285C7D050057F389 /* XCRemoteSwiftPackageReference "ImageColors" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rurza/ImageColors";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B62D1E128552152008A8FDA /* NepTunesKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B62D1E028552152008A8FDA /* XCRemoteSwiftPackageReference "NepTunesKit" */;
+			productName = NepTunesKit;
+		};
+		5B62D1E42855215C008A8FDA /* NepTunesKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B62D1E028552152008A8FDA /* XCRemoteSwiftPackageReference "NepTunesKit" */;
+			productName = NepTunesKit;
+		};
+		5BA01B56285C7D050057F389 /* ImageColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BA01B55285C7D050057F389 /* XCRemoteSwiftPackageReference "ImageColors" */;
+			productName = ImageColors;
+		};
+		5BA01B58285C7D120057F389 /* ImageColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BA01B55285C7D050057F389 /* XCRemoteSwiftPackageReference "ImageColors" */;
+			productName = ImageColors;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5B62D1BE2855211D008A8FDA /* Project object */;
 }

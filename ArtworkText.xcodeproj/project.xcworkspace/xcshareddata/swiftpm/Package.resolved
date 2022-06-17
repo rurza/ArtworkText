@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "imagecolors",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rurza/ImageColors",
+      "state" : {
+        "branch" : "main",
+        "revision" : "df2a85ae4d192e391995ee5d34ece978a980f03c"
+      }
+    },
+    {
       "identity" : "neptuneskit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rurza/NepTunesKit",
