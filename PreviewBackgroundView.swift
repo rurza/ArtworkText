@@ -16,7 +16,7 @@ struct PreviewBackgroundView: View {
 
 
     var body: some View {
-        Color(nsColor: colors?.background.nsColor ?? NSColor.systemBlue)
+        Color(nsColor: colors?.background.nsColor ?? NSColor.systemGray)
             .animation(.default, value: colors?.background.hashValue)
             .task {
                 self.colors = await extractBackgroundColor()
