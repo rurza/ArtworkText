@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B00EEBA286515AB00F25764 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB3286515AB00F25764 /* PreferencesView.swift */; };
+		5B00EEBB286515AB00F25764 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB3286515AB00F25764 /* PreferencesView.swift */; };
+		5B00EEBC286515AB00F25764 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB4286515AB00F25764 /* PreviewView.swift */; };
+		5B00EEBD286515AB00F25764 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB4286515AB00F25764 /* PreviewView.swift */; };
+		5B00EEBE286515AB00F25764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB5286515AB00F25764 /* ContentView.swift */; };
+		5B00EEBF286515AB00F25764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB5286515AB00F25764 /* ContentView.swift */; };
+		5B00EEC0286515AB00F25764 /* PreferencesKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB6286515AB00F25764 /* PreferencesKey.swift */; };
+		5B00EEC1286515AB00F25764 /* PreferencesKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB6286515AB00F25764 /* PreferencesKey.swift */; };
+		5B00EEC2286515AB00F25764 /* ArtworkTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB7286515AB00F25764 /* ArtworkTextView.swift */; };
+		5B00EEC3286515AB00F25764 /* ArtworkTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB7286515AB00F25764 /* ArtworkTextView.swift */; };
+		5B00EEC4286515AB00F25764 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B00EEB8286515AB00F25764 /* icon.png */; };
+		5B00EEC5286515AB00F25764 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B00EEB8286515AB00F25764 /* icon.png */; };
+		5B00EEC6286515AB00F25764 /* PreviewBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB9286515AB00F25764 /* PreviewBackgroundView.swift */; };
+		5B00EEC7286515AB00F25764 /* PreviewBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB9286515AB00F25764 /* PreviewBackgroundView.swift */; };
 		5B62D1D428552135008A8FDA /* ArtworkTextPreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1D328552135008A8FDA /* ArtworkTextPreviewApp.swift */; };
 		5B62D1D628552135008A8FDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1D528552135008A8FDA /* ContentView.swift */; };
 		5B62D1D828552136008A8FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B62D1D728552136008A8FDA /* Assets.xcassets */; };
@@ -15,19 +29,8 @@
 		5B62D1E52855215C008A8FDA /* NepTunesKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B62D1E42855215C008A8FDA /* NepTunesKit */; };
 		5B62D1E62855215C008A8FDA /* NepTunesKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 5B62D1E42855215C008A8FDA /* NepTunesKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5B62D1E92855217F008A8FDA /* ArtworkTextTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1E82855217F008A8FDA /* ArtworkTextTheme.swift */; };
-		5B62D1EB28552DBF008A8FDA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B62D1EA28552DBF008A8FDA /* icon.png */; };
-		5B62D1ED28553057008A8FDA /* ArtworkTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1EC28553057008A8FDA /* ArtworkTextView.swift */; };
-		5B62D1EE28553069008A8FDA /* ArtworkTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B62D1EC28553057008A8FDA /* ArtworkTextView.swift */; };
-		5BA01B4D285C76ED0057F389 /* PreferencesKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B4C285C76ED0057F389 /* PreferencesKey.swift */; };
-		5BA01B4E285C782D0057F389 /* PreferencesKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B4C285C76ED0057F389 /* PreferencesKey.swift */; };
-		5BA01B50285C794B0057F389 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B4F285C794B0057F389 /* PreferencesView.swift */; };
-		5BA01B51285C794B0057F389 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B4F285C794B0057F389 /* PreferencesView.swift */; };
-		5BA01B53285C7CB80057F389 /* PreviewBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B52285C7CB80057F389 /* PreviewBackgroundView.swift */; };
-		5BA01B54285C7CB80057F389 /* PreviewBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA01B52285C7CB80057F389 /* PreviewBackgroundView.swift */; };
 		5BA01B57285C7D050057F389 /* ImageColors in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA01B56285C7D050057F389 /* ImageColors */; };
 		5BA01B59285C7D120057F389 /* ImageColors in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA01B58285C7D120057F389 /* ImageColors */; };
-		5BE0AC68285A9E2300C44433 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0AC67285A9E2300C44433 /* PreviewView.swift */; };
-		5BE0AC6A285A9EA300C44433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0AC69285A9EA300C44433 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +48,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B00EEB3286515AB00F25764 /* PreferencesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesView.swift; path = Theme/PreferencesView.swift; sourceTree = "<group>"; };
+		5B00EEB4286515AB00F25764 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Theme/PreviewView.swift; sourceTree = "<group>"; };
+		5B00EEB5286515AB00F25764 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Theme/ContentView.swift; sourceTree = "<group>"; };
+		5B00EEB6286515AB00F25764 /* PreferencesKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesKey.swift; path = Theme/PreferencesKey.swift; sourceTree = "<group>"; };
+		5B00EEB7286515AB00F25764 /* ArtworkTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArtworkTextView.swift; path = Theme/ArtworkTextView.swift; sourceTree = "<group>"; };
+		5B00EEB8286515AB00F25764 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Theme/icon.png; sourceTree = "<group>"; };
+		5B00EEB9286515AB00F25764 /* PreviewBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewBackgroundView.swift; path = Theme/PreviewBackgroundView.swift; sourceTree = "<group>"; };
 		5B62D1C62855211D008A8FDA /* ArtworkText.nepext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtworkText.nepext; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B62D1D128552135008A8FDA /* ArtworkTextPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtworkTextPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B62D1D328552135008A8FDA /* ArtworkTextPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkTextPreviewApp.swift; sourceTree = "<group>"; };
@@ -53,13 +63,6 @@
 		5B62D1DA28552136008A8FDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B62D1DC28552136008A8FDA /* ArtworkTextPreview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtworkTextPreview.entitlements; sourceTree = "<group>"; };
 		5B62D1E82855217F008A8FDA /* ArtworkTextTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArtworkTextTheme.swift; path = Theme/ArtworkTextTheme.swift; sourceTree = "<group>"; };
-		5B62D1EA28552DBF008A8FDA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		5B62D1EC28553057008A8FDA /* ArtworkTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkTextView.swift; sourceTree = "<group>"; };
-		5BA01B4C285C76ED0057F389 /* PreferencesKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesKey.swift; sourceTree = "<group>"; };
-		5BA01B4F285C794B0057F389 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
-		5BA01B52285C7CB80057F389 /* PreviewBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewBackgroundView.swift; sourceTree = "<group>"; };
-		5BE0AC67285A9E2300C44433 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
-		5BE0AC69285A9EA300C44433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,14 +90,14 @@
 		5B62D1BD2855211D008A8FDA = {
 			isa = PBXGroup;
 			children = (
-				5B62D1EA28552DBF008A8FDA /* icon.png */,
 				5B62D1E82855217F008A8FDA /* ArtworkTextTheme.swift */,
-				5B62D1EC28553057008A8FDA /* ArtworkTextView.swift */,
-				5BE0AC67285A9E2300C44433 /* PreviewView.swift */,
-				5BE0AC69285A9EA300C44433 /* ContentView.swift */,
-				5BA01B4C285C76ED0057F389 /* PreferencesKey.swift */,
-				5BA01B4F285C794B0057F389 /* PreferencesView.swift */,
-				5BA01B52285C7CB80057F389 /* PreviewBackgroundView.swift */,
+				5B00EEB7286515AB00F25764 /* ArtworkTextView.swift */,
+				5B00EEB5286515AB00F25764 /* ContentView.swift */,
+				5B00EEB8286515AB00F25764 /* icon.png */,
+				5B00EEB6286515AB00F25764 /* PreferencesKey.swift */,
+				5B00EEB3286515AB00F25764 /* PreferencesView.swift */,
+				5B00EEB9286515AB00F25764 /* PreviewBackgroundView.swift */,
+				5B00EEB4286515AB00F25764 /* PreviewView.swift */,
 				5B62D1D228552135008A8FDA /* ArtworkTextPreview */,
 				5B62D1C72855211D008A8FDA /* Products */,
 				5B62D1E32855215C008A8FDA /* Frameworks */,
@@ -230,7 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B62D1EB28552DBF008A8FDA /* icon.png in Resources */,
+				5B00EEC4286515AB00F25764 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +243,7 @@
 			files = (
 				5B62D1DB28552136008A8FDA /* Preview Assets.xcassets in Resources */,
 				5B62D1D828552136008A8FDA /* Assets.xcassets in Resources */,
+				5B00EEC5286515AB00F25764 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,13 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B62D1ED28553057008A8FDA /* ArtworkTextView.swift in Sources */,
-				5BA01B53285C7CB80057F389 /* PreviewBackgroundView.swift in Sources */,
-				5BA01B50285C794B0057F389 /* PreferencesView.swift in Sources */,
 				5B62D1E92855217F008A8FDA /* ArtworkTextTheme.swift in Sources */,
-				5BE0AC6A285A9EA300C44433 /* ContentView.swift in Sources */,
-				5BE0AC68285A9E2300C44433 /* PreviewView.swift in Sources */,
-				5BA01B4D285C76ED0057F389 /* PreferencesKey.swift in Sources */,
+				5B00EEC6286515AB00F25764 /* PreviewBackgroundView.swift in Sources */,
+				5B00EEBA286515AB00F25764 /* PreferencesView.swift in Sources */,
+				5B00EEC2286515AB00F25764 /* ArtworkTextView.swift in Sources */,
+				5B00EEBE286515AB00F25764 /* ContentView.swift in Sources */,
+				5B00EEBC286515AB00F25764 /* PreviewView.swift in Sources */,
+				5B00EEC0286515AB00F25764 /* PreferencesKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +268,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA01B51285C794B0057F389 /* PreferencesView.swift in Sources */,
 				5B62D1D628552135008A8FDA /* ContentView.swift in Sources */,
+				5B00EEBF286515AB00F25764 /* ContentView.swift in Sources */,
+				5B00EEBD286515AB00F25764 /* PreviewView.swift in Sources */,
+				5B00EEC7286515AB00F25764 /* PreviewBackgroundView.swift in Sources */,
+				5B00EEBB286515AB00F25764 /* PreferencesView.swift in Sources */,
+				5B00EEC1286515AB00F25764 /* PreferencesKey.swift in Sources */,
 				5B62D1D428552135008A8FDA /* ArtworkTextPreviewApp.swift in Sources */,
-				5BA01B54285C7CB80057F389 /* PreviewBackgroundView.swift in Sources */,
-				5BA01B4E285C782D0057F389 /* PreferencesKey.swift in Sources */,
-				5B62D1EE28553069008A8FDA /* ArtworkTextView.swift in Sources */,
+				5B00EEC3286515AB00F25764 /* ArtworkTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +549,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rurza/NepTunesKit";
 			requirement = {
-				branch = main;
+				branch = development;
 				kind = branch;
 			};
 		};

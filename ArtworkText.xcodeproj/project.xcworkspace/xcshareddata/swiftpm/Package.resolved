@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rurza/NepTunesKit",
       "state" : {
-        "branch" : "main",
-        "revision" : "4db19a1888e216a9f33b48adf58009ccf6b84a08"
+        "branch" : "development",
+        "revision" : "f1c0507b8ef565a9aa1e1d94e09ea53179c27b61"
       }
     }
   ],

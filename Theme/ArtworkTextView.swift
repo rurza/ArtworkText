@@ -21,7 +21,7 @@ struct ArtworkTextView: View {
                         .resizable()
                         .interpolation(.high)
                 } else {
-                    Image("nocover")
+                    NepTunes.defaultArtwork
                         .resizable()
                         .interpolation(.high)
                 }
@@ -42,7 +42,7 @@ struct ArtworkTextView: View {
                     )
                     .animation(.easeInOut(duration: 0.5), value: track)
                 Text(track.artist)
-                    .id(track.artist) /// used for
+                    .id(track.artist) /// used for animation
                     .foregroundColor(.secondary)
                     .transition(
                         .asymmetric(insertion: .slide.combined(with: .opacity).animation(.easeIn(duration: 0.3).delay(0.2)),
