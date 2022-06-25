@@ -10,7 +10,7 @@ import SwiftUI
 struct PreferencesView: View {
 
     @AppStorage(wrappedValue: TextColor.white, PreferencesKey.textColor.rawValue) var textColor: TextColor
-    @AppStorage(wrappedValue: true, PreferencesKey.textColor.rawValue) var textWithShadow: Bool
+    @AppStorage(wrappedValue: true, PreferencesKey.textWithShadow.rawValue) var textWithShadow: Bool
 
 
     var body: some View {
