@@ -9,6 +9,7 @@ import Foundation
 
 enum PreferencesKey: String {
     case textColor
+    case textWithShadow
 
     var key: String {
         "software.micropixels.ArtworkText." + self.rawValue
@@ -18,6 +19,7 @@ enum PreferencesKey: String {
 enum TextColor: String, CaseIterable {
     case white
     case black
+    case system
 
     var name: String {
         self.rawValue.capitalized

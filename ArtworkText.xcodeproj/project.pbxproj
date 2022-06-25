@@ -10,9 +10,7 @@
 		5B00EEBA286515AB00F25764 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB3286515AB00F25764 /* PreferencesView.swift */; };
 		5B00EEBB286515AB00F25764 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB3286515AB00F25764 /* PreferencesView.swift */; };
 		5B00EEBC286515AB00F25764 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB4286515AB00F25764 /* PreviewView.swift */; };
-		5B00EEBD286515AB00F25764 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB4286515AB00F25764 /* PreviewView.swift */; };
 		5B00EEBE286515AB00F25764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB5286515AB00F25764 /* ContentView.swift */; };
-		5B00EEBF286515AB00F25764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB5286515AB00F25764 /* ContentView.swift */; };
 		5B00EEC0286515AB00F25764 /* PreferencesKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB6286515AB00F25764 /* PreferencesKey.swift */; };
 		5B00EEC1286515AB00F25764 /* PreferencesKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB6286515AB00F25764 /* PreferencesKey.swift */; };
 		5B00EEC2286515AB00F25764 /* ArtworkTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B00EEB7286515AB00F25764 /* ArtworkTextView.swift */; };
@@ -269,8 +267,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B62D1D628552135008A8FDA /* ContentView.swift in Sources */,
-				5B00EEBF286515AB00F25764 /* ContentView.swift in Sources */,
-				5B00EEBD286515AB00F25764 /* PreviewView.swift in Sources */,
 				5B00EEC7286515AB00F25764 /* PreviewBackgroundView.swift in Sources */,
 				5B00EEBB286515AB00F25764 /* PreferencesView.swift in Sources */,
 				5B00EEC1286515AB00F25764 /* PreferencesKey.swift in Sources */,

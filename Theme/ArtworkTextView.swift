@@ -11,6 +11,7 @@ import NepTunesKit
 struct ArtworkTextView: View {
     let track: AnyTrack
     @AppStorage(wrappedValue: TextColor.white, PreferencesKey.textColor.rawValue) var textColor: TextColor
+    @AppStorage(wrappedValue: true, PreferencesKey.textColor.rawValue) var textWithShadow: Bool
 
     var body: some View {
         HStack {
@@ -41,18 +42,18 @@ struct ArtworkTextView: View {
                                     removal: .move(edge: .leading).combined(with: .opacity).animation(.easeIn(duration: 0.2)))
                     )
                     .animation(.easeInOut(duration: 0.5), value: track)
+                    .foregroundColor(textColor != .system ? (textColor == .white ? .white : .black) : .primary)
                 Text(track.artist)
                     .id(track.artist) /// used for animation
-                    .foregroundColor(.secondary)
+                    .foregroundColor(textColor != .system ? (textColor == .white ? .white.opacity(0.8) : .black.opacity(0.8)) : .secondary)
                     .transition(
                         .asymmetric(insertion: .slide.combined(with: .opacity).animation(.easeIn(duration: 0.3).delay(0.2)),
                                     removal: .move(edge: .leading).combined(with: .opacity).animation(.easeIn(duration: 0.2)))
                     )
                     .animation(.easeInOut(duration: 0.5), value: track)
             }
-            .shadow(color: .black.opacity(0.2),
+            .shadow(color: .black.opacity(textWithShadow ? 0.2 : 0),
                     radius: 3, x: 0, y: 1)
-            .environment(\.colorScheme, textColor == .white ? .dark : .light)
             .zIndex(1)
             .fixedSize(horizontal: true, vertical: false)
         }
@@ -69,7 +70,8 @@ struct ArtworkTextView_Preview: PreviewProvider {
                 album: "Lost",
                 artworkData: NSImage(named: "artwork")!.tiffRepresentation,
                 duration: 350
-            )
+            ),
+            textColor: .init(wrappedValue: .system, PreferencesKey.textColor.key)
         )
     }
 }
