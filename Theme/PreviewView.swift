@@ -13,7 +13,10 @@ struct PreviewView: View {
     @ObservedObject var app: NepTunes
 
     var body: some View {
-        ArtworkTextView(track: app.state?.currentTrack ?? ArtworkTextTheme.previewTrack)
-            .frame(width: 400, alignment: .leading)
+        ArtworkTextView(
+            track: app.state?.currentTrack ?? ArtworkTextTheme.previewTrack,
+            artworkClickAction: app.playPause
+        )
+        .frame(width: 360, alignment: .leading)
     }
 }

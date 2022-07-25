@@ -10,6 +10,7 @@ import NepTunesKit
 
 struct ArtworkTextView: View {
     let track: AnyTrack
+    let artworkClickAction: () -> Void
     @AppStorage(wrappedValue: TextColor.white, PreferencesKey.textColor.rawValue) var textColor: TextColor
     @AppStorage(wrappedValue: true, PreferencesKey.textWithShadow.rawValue) var textWithShadow: Bool
 
@@ -33,6 +34,9 @@ struct ArtworkTextView: View {
             .shadow(color: .black.opacity(0.3),
                     radius: 6, x: 0, y: 3)
             .zIndex(2)
+            .onTapGesture {
+                artworkClickAction()
+            }
             VStack(alignment: .leading) {
                 Text(track.title)
                     .fontWeight(.medium)
@@ -45,7 +49,7 @@ struct ArtworkTextView: View {
                     .foregroundColor(textColor != .system ? (textColor == .white ? .white : .black) : .primary)
                 Text(track.artist)
                     .id(track.artist) /// used for animation
-                    .foregroundColor(textColor != .system ? (textColor == .white ? .white.opacity(0.8) : .black.opacity(0.8)) : .secondary)
+                    .foregroundColor(textColor != .system ? (textColor == .white ? .white.opacity(0.7) : .black.opacity(0.7)) : .secondary)
                     .transition(
                         .asymmetric(insertion: .slide.combined(with: .opacity).animation(.easeIn(duration: 0.3).delay(0.2)),
                                     removal: .move(edge: .leading).combined(with: .opacity).animation(.easeIn(duration: 0.2)))
@@ -61,6 +65,7 @@ struct ArtworkTextView: View {
     }
 }
 
+
 struct ArtworkTextView_Preview: PreviewProvider {
     static var previews: some View {
         ArtworkTextView(
@@ -71,6 +76,7 @@ struct ArtworkTextView_Preview: PreviewProvider {
                 artworkData: NSImage(named: "artwork")!.tiffRepresentation,
                 duration: 350
             ),
+            artworkClickAction: { print("Click!") },
             textColor: .init(wrappedValue: .system, PreferencesKey.textColor.key)
         )
     }

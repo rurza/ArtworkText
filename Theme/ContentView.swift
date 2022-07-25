@@ -14,7 +14,7 @@ struct ContentView: View {
 
     var body: some View {
         if let track = app.state?.currentTrack {
-            ArtworkTextView(track: track)
+            ArtworkTextView(track: track, artworkClickAction: app.playPause)
         }
     }
 }
