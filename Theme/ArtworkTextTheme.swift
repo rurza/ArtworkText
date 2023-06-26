@@ -13,7 +13,7 @@ final class ArtworkTextTheme: Theme {
     override var info: ThemeInfo {
         ThemeInfo(
             name: "Artwork Text",
-            version: 2,
+            version: 4,
             identifier: "software.micropixels.ArtworkText",
             author: "Adam Różyński",
             iconFileURL: Bundle(for: Self.self).urlForImageResource("icon")!

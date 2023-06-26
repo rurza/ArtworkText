@@ -47,6 +47,7 @@ struct ArtworkTextView: View {
                     )
                     .animation(.easeInOut(duration: 0.5), value: track)
                     .foregroundColor(textColor != .system ? (textColor == .white ? .white : .black) : .primary)
+                    .clipped()
                 Text(track.artist)
                     .id(track.artist) /// used for animation
                     .foregroundColor(textColor != .system ? (textColor == .white ? .white.opacity(0.7) : .black.opacity(0.7)) : .secondary)
@@ -55,6 +56,7 @@ struct ArtworkTextView: View {
                                     removal: .move(edge: .leading).combined(with: .opacity).animation(.easeIn(duration: 0.2)))
                     )
                     .animation(.easeInOut(duration: 0.5), value: track)
+                    .clipped()
             }
             .shadow(color: .black.opacity(textWithShadow ? 0.2 : 0),
                     radius: 3, x: 0, y: 1)
